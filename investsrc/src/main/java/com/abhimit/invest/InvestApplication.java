@@ -14,7 +14,7 @@ public class InvestApplication {
 	}
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
+		return String.format("Hello  frome test 1 branch : %s!", name);
 	}
 
 }
